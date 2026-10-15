@@ -1,0 +1,5 @@
+[mcp_servers.compose-hot-reload]
+command = "./gradlew"
+args = ["--no-daemon", "--quiet", "--console=plain", "hotMcpServer"]
+cwd = "/Users/Anton.Penerov/Desktop/All projects/ComposeHotReloadTest"
+startup_timeout_sec = 120
